@@ -1,0 +1,287 @@
+body{
+  background-image: url(./imagens/fundo-escuro.jpg);
+}
+
+.header{
+  background-image: url(./imagens-h/fundo-claro.jpg);
+  width: 100%;
+  float: left;
+}
+
+h1#titulo{
+  text-align: center;
+  font-size: 100px;
+}
+
+img#logo{
+  margin-left: 10px;
+}
+
+ul#topnav{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4b1f13;
+}
+
+li {
+    font-size: 30px;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #e3d9bd;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    color: #4b1f13;
+    background-color: #e3d9bd;
+}
+
+.coluna{
+  background-image: url(./imagens-h/fundo-claro.jpg);
+  float: left;
+  width: 30%;
+  height: 15cm;
+  margin: 10px;
+  padding: 15px;
+}
+
+.titulo{
+  text-align: center;
+}
+
+.foto{
+  text-align: center;
+  float: left;
+  width: 30%;
+  padding: 15px;
+}
+
+dt, dd{
+  font-size: 20px;
+}
+
+.c{
+  font-size: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  width: 100%;
+}
+
+
+.coluna1{
+  background-image: url(./imagens-h/fundo-claro.jpg);
+  float: right;
+  width: 50%;
+  margin: 10px;
+  padding: 15px;
+  overflow: auto;
+}
+
+div#rolar{
+  height: 10cm;
+  text-align: justify;
+}
+
+.coluna2{
+  content-align: center;
+  float: right;
+  width: 40%;
+  margin: 17px;
+  padding: 22px;
+}
+
+.footer{
+  background-color: #4b1f13;
+}
+
+.rodapé1{
+  float: left;
+}
+
+.rodapé2{
+  float: right;
+}
+
+.foot{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: #4b1f13;
+    color: #e3d9bd;
+}
+
+.foot1{
+    font-size: 30px;
+    float: left;
+    padding: 14px 16px;
+  
+}
+
+.foot2{
+    font-size: 30px;
+    float: right;
+    text-align: right;
+    padding: 14px 16px;
+  
+}
+
+.roda{
+  transform: rotate(320deg);
+}
+
+.logo{
+  float: left;
+}
+
+.coluna-n{
+  background-image: url(./imagens-h/fundo-claro.jpg);
+  float: left;
+  width: 100%;
+  text-align: justify;
+}
+
+.sobre{
+  margin: 24px;
+  font-size: 25px;
+}
+
+#fachada{
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+#mesas{
+  float: right;
+  margin: 10px;
+  padding: 10px;
+}
+
+
+#estante{
+  float: left;
+  margin: 10px;
+  padding: 10px;
+}
+
+@media screen and (max-width: 600px){
+  .header{
+    padding-right: 2%;
+    width: 140%;
+  }
+  h1#titulo{
+    font-size: 77px;
+  }
+  .top{
+    padding-right: 1%;
+    width: 142%;
+  }
+
+  .coluna{
+    width: 45%;
+    padding: 10px;
+    margin: 10px;
+    overflow: auto;
+  }
+  .foto{
+    display: none;
+  }
+  .row{
+    width: 140%;
+  }
+
+  .coluna1{
+    float: left;
+    padding-right:;
+    width: 94%;
+  }
+
+  .coluna2{
+    width: 94%;
+    float: left;
+  }
+
+  video#vid{
+    width: 720px;
+  }
+
+  .footer{
+    width: 140%;
+  }
+  .foot1{
+    font-size: 25px;
+  }
+  .foot2{
+    font-size: 25px;
+  }
+
+  .BC{
+    width: 600px;
+  }
+}
+
+@media screen and (max-width: 574px){
+  .header{
+    padding-right: 2%;
+    width: 188%;
+  }
+  h1#titulo{
+    font-size: 77px;
+  }
+  .top{
+    padding-right: 1%;
+    width: 190%;
+  }
+  
+  .coluna{
+    text-align: justify;
+    width: 340px;
+    padding: 10px;
+    margin: 6px;
+    overflow: auto;
+  }
+  .foto{
+    display: none;
+  }
+  .row{
+    width: 188%;
+  }
+
+  .coluna1{
+    float: left;
+    padding-right:;
+    width: 94%;
+  }
+
+  .coluna2{
+    width: 94%;
+    float: left;
+  }
+
+  video#vid{
+    width: 660px;
+  }
+
+  .footer{
+    width: 188%;
+  }
+  .foot1{
+    font-size: 25px;
+  }
+  .foot2{
+    font-size: 25px;
+  }
+
+  .BC{
+    width: 400px;
+  }
+}
