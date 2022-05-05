@@ -44,10 +44,11 @@ li a:hover {
 .coluna{
   background-image: url(./imagens-h/fundo-claro.jpg);
   float: left;
-  width: 30%;
-  height: 15cm;
+  width: 27%;
+  height: 18cm;
   margin: 10px;
   padding: 15px;
+  overflow: auto;
 }
 
 .titulo{
@@ -96,8 +97,9 @@ div#rolar{
   content-align: center;
   float: right;
   width: 40%;
-  margin: 17px;
-  padding: 22px;
+  margin: 10px;
+  padding: 24px;
+  margin-top: 22px;
 }
 
 .footer{
@@ -171,6 +173,10 @@ div#rolar{
   float: left;
   margin: 10px;
   padding: 10px;
+}
+
+.BC{
+  width: 800px;
 }
 
 @media screen and (max-width: 600px){
