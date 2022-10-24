@@ -179,6 +179,20 @@ div#rolar{
   width: 800px;
 }
 
+
+#btn{
+  background-color: #4b1f13;
+  font-size: 20px;
+  border: 2px solid black;
+  width: 300px;
+  border-radius: 10px;
+}
+
+#btn a{
+  color:#e3d9bd;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 600px){
   .header{
     padding-right: 2%;
