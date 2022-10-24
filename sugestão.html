@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Book & Coffee</title>
+  <link href="form.css" rel="stylesheet" type="text/css" />
+  <link href="style.css" rel="stylesheet" type="text/css" />
+<link rel="icon" type="image/x-icon" href="./imagens-h/logo.png">
+</head>
+
+<body>
+  <div class="header">
+    <img id="logo" src="./imagens-h/logo.png" width="20%" class="roda" style="float: left" >
+    <h1 id="titulo">Book & Coffee</h1>
+  </div>
+
+  
+  <div class="top">
+  <ul id="topnav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="sobre-n.html">Quem somos</a></li>
+    <li><a href="fotos.html">Fotos</a></li>
+  </ul>
+  </div>
+
+   <form class="formulario" action="https://formsubmit.co/bookcoffee.dd@gmail.com" method="post"> 
+        <p> Envie uma susgest preenchendo o formulário abaixo</p>
+        
+        <div class="field">
+            <label for="nome">Seu Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome*" required>
+        </div><br>
+
+        <div class="field">
+            <label for="email">Seu E-Mail:</label>
+            <input type="email" id="email" name="email" placeholder="Digite seu E-Mail*" required>
+        </div><br>
+        <div class="field">
+            <label for="mensagem">Sua mensagem:</label>
+            <textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+        </div><br>
+
+        <input type="submit" name="acao" value="Enviar">
+    </form>
+
+  <br><br><br>
+
+<div class="footer">
+  <ul class="foot">
+    <li class="foot1">Mountcity-OL<br>
+       Av. Soares da Silva<br>
+       Hórarios: 6h ás 18h</li>
+    <li class="foot2">E-mail: BookCoffee.DD@gmail.com<br>
+       Número: (11) 3107-0404</li>
+  </ul>
+</div>
+  
+  
+  <script src="script.js"></script>
+</body>
+
+</html>
